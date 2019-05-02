@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/apple/.sdkman/candidates/springboot/current/bin:/Users/apple/.sdkman/candidates/groovy/current/bin:/Users/apple/.sdkman/candidates/gradle/current/bin:/usr/local/mongodb/bin:/Users/apple/Desktop/NBIS_SOFTWARE/bin:/usr/local:usr/X11/bin:usr/include:/Users/apple/Documents/glassfish4/bin:/Users/apple/Documents/glassfish4/glassfish/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/usr/local/lib:/Users/apple/Documents/maven/bin:/Users/apple/.nexustools:/usr/local/mongodb/bin:/Users/apple/Desktop/NBIS_SOFTWARE/bin:/usr/local:usr/X11/bin:usr/include:/Users/apple/Documents/glassfish4/bin:/Users/apple/Documents/glassfish4/glassfish/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/usr/local/bin:/usr/local/lib:/Users/apple/Documents/maven/bin:/Users/apple/.nexustools:/Users/apple/.nexustools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.10.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "manch-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server/server.js"
+    },
+    "engines": {
+      "node": "8.x"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "aws-sdk": "^2.241.1",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.18.2",
+      "cors": "^2.8.4",
+      "ejs": "^2.5.7",
+      "express": "^4.16.2",
+      "fs": "0.0.1-security",
+      "html": "^1.0.0",
+      "https": "^1.0.0",
+      "joi": "^13.3.0",
+      "jsonwebtoken": "^8.2.1",
+      "lodash": "^4.17.10",
+      "uuid": "^3.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at MessageError.Error (native)
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.checkOne (/usr/local/lib/node_modules/yarn/lib/cli.js:62444:11)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:22773:75
+      at next (native)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:116:14
+      at Promise.F (/usr/local/lib/node_modules/yarn/lib/cli.js:23451:28)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:95:12
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:22777:27

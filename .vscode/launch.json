@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "type": "node",
+        "runtimeExecutable": "nodemon",
+        "request": "launch",
+        "restart": true,
+        "name": "Launch test",
+        "runtimeVersion": "8.9.4",
+        "program": "${workspaceFolder}/server/server",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+    }]
+}
