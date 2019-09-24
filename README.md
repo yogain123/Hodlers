@@ -1,6 +1,6 @@
 Project
 --
-Bank Of Hodlers
+Hodlers
 
 Stack Used
 ---
