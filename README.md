@@ -13,7 +13,7 @@ Stack Used
 
 API's Details
 ------------
-URL : https://bank-of-hodlers.herokuapp.com/create/auction  <br/>
+URL : localhost:3009/create/auction  <br/>
 Method : POST  <br/>
 payload :  form-data => because it contains item image also <br/>
 1st param is a file <br/>
@@ -34,7 +34,7 @@ Functionality : It submit item for Auction, Contains all Fields Validation.  <br
 
 ----
 ----
-URL : https://bank-of-hodlers.herokuapp.com/create/user   <br/>
+URL : localhost:3009/create/user   <br/>
 Method : POST   <br/>
 payload:
 ```
@@ -49,7 +49,7 @@ Functionality : It create authenticated user who can do bidding for items , Cont
 
 ----
 ----
-URL : https://bank-of-hodlers.herokuapp.com/login    <br/>
+URL : localhost:3009/login    <br/>
 Method : POST    <br/>
 payload:
 ```
@@ -73,7 +73,7 @@ Resposne :
 
 ------
 ------
-URL : https://bank-of-hodlers.herokuapp.com/submit/bid    <br/>
+URL : localhost:3009/submit/bid    <br/>
 Method : POST   <br/>
 **Header :** 
 apiKey : JWT_TOKEN_OF_LOGEDIN_USER    <br/>
@@ -89,7 +89,7 @@ Functionality : Logged In user can submit bid for item with passed itemId in pay
 ------
 ------
 
-URL : https://bank-of-hodlers.herokuapp.com/view/bid   <br/>
+URL : localhost:3009/view/bid   <br/>
 Method : GET  <br/>
 **Header :** 
 apiKey : JWT_TOKEN_OF_LOGEDIN_USER   <br/>
@@ -98,15 +98,15 @@ Functionality : Get All bid details of the Logged In User   <br/>
 -------
 ------
 
-URL : https://bank-of-hodlers.herokuapp.com/fetch/all/item   <br/>
+URL : localhost:3009/fetch/all/item   <br/>
 Method : GET   <br/>
 Functionality :  Get ALL item in Auction <br/>
 
 -------
 -------
 
-URL : https://bank-of-hodlers.herokuapp.com/fetch/item/:itemId <br/>
-example : https://bank-of-hodlers.herokuapp.com/fetch/item/1556801886187 <br/>
+URL : localhost:3009/fetch/item/:itemId <br/>
+example : localhost:3009/fetch/item/1556801886187 <br/>
 Method : GET <br/>
 Functionality : Full Item details for the passed itemId<br/>
 If the item is already auctioned it gives the details of buyer and the amount </br>
@@ -116,7 +116,7 @@ If the item is currently in auction, it list the highest bid amount
 -----
 
 
-URL : https://bank-of-hodlers.herokuapp.com/logout   <br/>
+URL : localhost:3009/logout   <br/>
 Method : DELETE   <br/>
 **Header :** 
 apiKey : JWT_TOKEN_OF_LOGEDIN_USER   <br/>
