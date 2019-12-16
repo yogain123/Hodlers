@@ -129,6 +129,9 @@ Runing a task to automatically finding the winner of each auction when it hits t
 Sending an email to all users who bid for the item with details of the winner and final <br/>
 amount.<br/>
 
+## Detailed Documentation
+https://documenter.getpostman.com/view/2416522/SWEB2G2w?version=latest
+
 Author
 ------
 Yogendra Saxena
